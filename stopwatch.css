@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    color:white;
+}
+
+/* stopwatch-container */
+
+#stopwatch
+{
+    background-image:url("./images/galaxy2.jpg");
+    background-position:center;
+    background-size:cover;
+    box-shadow:4px 4px 5px grey inset, -4px -4px 5px grey inset;
+    height:80vh;
+    width:50vw;
+    margin:auto;
+    margin-top:2rem;
+    border:1px solid black;
+}
+
+
+#screens-container
+{
+    height:40%;
+    width:80%;
+    margin:auto;
+    margin-top:15vh;
+    display:flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    color:black;
+}
+
+
+#buttons-container
+{
+    height:10%;
+    width:40%;
+    margin:auto;
+    margin-top:3rem;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.screen
+{
+    height:4rem;
+    width:4rem;
+    padding:1.2rem;
+    font-weight:bolder;
+    color:black;
+    background-color:white;
+    box-shadow:3px 3px 8px cornflowerblue inset, -3px -3px 8px cornflowerblue inset;
+    transition:all 1s ease-in-out;
+}
+
+.screen:hover{
+    color:white;
+    background-color:black;
+    box-shadow:none;
+    transform:scale(1.5);
+}
